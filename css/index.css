@@ -141,10 +141,10 @@ body {
   align-content: center;
 }
 .container {
-  width: 75%;
+  width: 80%;
   height: auto;
-  margin: 0px 50px;
   margin-right: 50px;
+  margin-left: 50px;
   align-content: center;
   justify-content: center;
 }
@@ -171,6 +171,24 @@ body {
   align-content: center;
   margin: 30px;
   border-bottom: 2px dotted black;
+}
+.top-content .skills {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  align-content: stretch;
+}
+.top-content .idiom {
+  color: aqua;
+  margin: 20px 0px;
+  padding: 5%;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-content: center;
 }
 .top-content .self {
   margin: 20px;
@@ -199,9 +217,9 @@ body {
 }
 .middle-content {
   border-bottom: 2px dotted black;
-  max-width: 100%;
+  width: 100%;
   display: flex;
-  color: lightseagreen;
+  color: #021a18;
   font: 1em bold serif;
 }
 .middle-content span {
@@ -213,41 +231,47 @@ body {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  width: 80%;
-  margin: 8%;
+  margin: 2%;
   background-color: aqua;
-  padding: 8%;
+  padding: 3%;
 }
 .middle-content .content2 {
   display: flex;
   justify-content: space-evenly;
   justify-content: center;
   align-content: center;
-  width: 80%;
   flex-wrap: wrap;
-  margin: 8%;
+  margin: 2%;
   background-color: aquamarine;
-  padding: 8%;
+  padding: 3%;
 }
 .middle-content .content3 {
   display: flex;
   justify-content: space-evenly;
   justify-content: center;
   align-content: center;
-  width: 80%;
   flex-wrap: wrap;
-  margin: 8%;
+  margin: 2%;
   background-color: coral;
-  padding: 8%;
+  padding: 3%;
 }
 .middle-content .content4 {
   display: flex;
   justify-content: space-evenly;
   justify-content: center;
   align-content: center;
-  width: 80%;
   flex-wrap: wrap;
-  margin: 8%;
+  margin: 2%;
   background-color: crimson;
-  padding: 8%;
+  padding: 3%;
+}
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-content: center;
+  font-size: 2em;
+}
+.info {
+  margin: 2%;
 }
