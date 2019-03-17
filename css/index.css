@@ -213,7 +213,7 @@ body {
   justify-content: space-evenly;
   justify-content: center;
   align-content: center;
-  color: lightseagreen;
+  color: purple;
 }
 .middle-content {
   border-bottom: 2px dotted black;
@@ -223,7 +223,9 @@ body {
   font: 1em bold serif;
 }
 .middle-content span {
-  color: #f12be1;
+  color: purple;
+  font: bold;
+  font-size: 19px;
 }
 .middle-content .content1 {
   display: flex;
