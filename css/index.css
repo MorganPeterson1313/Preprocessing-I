@@ -134,6 +134,32 @@ html,
 body {
   height: 100%;
 }
+@media (max-width: 800px) {
+  width: 100%;
+  .top-content .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .top-content .qualifications {
+    margin-right: 50px;
+  }
+  .top-content .self {
+    display: none;
+    visibility: hidden;
+  }
+  .middle-content {
+    flex-direction: column;
+  }
+  .contact {
+    font-size-adjust: none;
+  }
+  .info {
+    font-size: 14px;
+  }
+}
+@media (max-width: 500px) {
+  width: 80%;
+}
 .center {
   display: flex;
   justify-content: space-evenly;
