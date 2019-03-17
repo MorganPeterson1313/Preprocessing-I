@@ -140,6 +140,14 @@ body {
   justify-content: center;
   align-content: center;
 }
+.container {
+  width: 75%;
+  height: auto;
+  margin: 0px 50px;
+  margin-right: 50px;
+  align-content: center;
+  justify-content: center;
+}
 .nav-header .nav-links {
   display: flex;
   justify-content: space-evenly;
@@ -150,8 +158,34 @@ body {
   margin: 5px 40px;
   text-decoration: none;
   color: black;
+  border-radius: 20%;
 }
 .nav-header .links:hover {
   background-color: black;
   color: white;
+}
+.top-content {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-content: center;
+  margin: 30px;
+  border-bottom: 2px dotted black;
+}
+.top-content .self {
+  margin: 20px;
+  max-width: 400px;
+  width: 75%;
+  height: auto;
+}
+.top-content .qualifications {
+  margin: 20px;
+}
+.top-content .list {
+  list-style-type: disc;
+}
+.top-content li,
+.top-content h1 {
+  flex-wrap: wrap;
+  margin: 30px;
 }
