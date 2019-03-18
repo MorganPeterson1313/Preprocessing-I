@@ -199,10 +199,13 @@ body {
     flex-direction: column;
   }
   .nav-header .links {
+    font-size: 20px;
     margin: 0px 0px;
     text-decoration: none;
     color: black;
     border-radius: 0%;
+    border-bottom: black solid 2px;
+    border-top: black solid 2px;
   }
 }
 .center {
