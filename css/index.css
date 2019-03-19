@@ -181,10 +181,9 @@ body {
   .qualifications {
     width: 500px;
     align-items: center;
-    justify-items: right;
   }
   .list {
-    width: 400px;
+    width: 300px;
     margin-left: 40%;
   }
   .middle-content {
@@ -199,9 +198,10 @@ body {
     justify-content: space-evenly;
     justify-content: center;
     align-content: center;
+    align-items: center;
   }
   .top-content {
-    width: 515px;
+    width: 500px;
     margin-left: 10%;
   }
   .container {
