@@ -188,15 +188,20 @@ body {
     font-size: 40px;
   }
   .middle-content {
-    margin-left: 20%;
+    margin-left: 15%;
     width: 400px;
     font-size: 40px;
+  }
+  li {
+    width: 400px;
   }
   .content1,
   .content2,
   .content3,
   .content4 {
     font-size: 30px;
+    width: 495px;
+    margin-right: 3%;
   }
   span {
     font-size: 30px;
@@ -217,7 +222,7 @@ body {
     margin-left: 10%;
   }
   .container {
-    width: 515px;
+    width: 100%;
     height: auto;
   }
   .skills {
