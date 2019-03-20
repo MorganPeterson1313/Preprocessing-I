@@ -338,11 +338,24 @@ body {
   margin: 20px;
 }
 @media (max-width: 375px) {
-  .top-content .qualifications .hiqual {
+  .top-content .hiqual-header {
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-content: center;
+  }
+}
+@media (max-width: 375px) {
+  .top-content .hiqual {
     width: 75%;
     margin-left: 20%;
-    font-size: 10px;
+    font-size: 25px;
     flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-content: center;
   }
 }
 .top-content .list {
