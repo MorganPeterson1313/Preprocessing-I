@@ -263,13 +263,13 @@ body {
   align-content: center;
   justify-content: center;
 }
-.nav-header .nav-links {
-  display: flex;
-  justify-content: space-evenly;
+.nav-header .nav-links .links {
+  margin: 8%;
+  justify-items: center;
   justify-content: center;
-  align-content: center;
 }
 .nav-header .links {
+  justify-content: space-around;
   text-decoration: none;
   color: black;
 }
@@ -292,6 +292,7 @@ body {
   align-content: center;
   flex-direction: column;
   align-content: stretch;
+  margin: 20px;
   max-width: 500px;
   width: 75%;
   height: auto;
