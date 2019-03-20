@@ -164,7 +164,7 @@ body {
   }
   .list {
     width: 350px;
-    margin-left: 0;
+    margin-left: 20%;
     font-size: 40px;
   }
   .middle-content {
@@ -208,7 +208,7 @@ body {
     font-size: 40px;
   }
   .top-content {
-    width: 500px;
+    width: 400px;
     margin-left: 0;
   }
   .container {
@@ -281,7 +281,6 @@ body {
   justify-content: space-evenly;
   justify-content: center;
   align-content: center;
-  margin: 30px;
   border-bottom: 2px dotted black;
 }
 .top-content .skills {
@@ -292,7 +291,6 @@ body {
   align-content: center;
   flex-direction: column;
   align-content: stretch;
-  margin: 20px;
   max-width: 500px;
   width: 75%;
   height: auto;
@@ -322,9 +320,6 @@ body {
   max-width: 500px;
   width: 75%;
   height: auto;
-}
-.top-content .qualifications {
-  margin: 20px;
 }
 .top-content .list {
   list-style-type: disc;
