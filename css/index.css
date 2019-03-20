@@ -288,6 +288,35 @@ body {
   background-color: black;
   color: white;
 }
+.name {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.name .name-header {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 1040px;
+  font-size: 60px;
+  background-color: lightgray;
+}
+@media (max-width: 375px) {
+  .name .name-header {
+    width: 95%;
+  }
+}
+@media (max-width: 800px) {
+  .name .name-header {
+    width: 95%;
+  }
+}
+@media (max-width: 500px) {
+  .name .name-header {
+    width: 95%;
+  }
+}
 .top-content {
   display: flex;
   justify-content: space-evenly;
