@@ -158,22 +158,6 @@ body {
   }
 }
 @media (max-width: 500px) {
-  width: 100%;
-  .container2 {
-    width: 100%;
-  }
-  .list {
-    width: 350px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 30%;
-    flex-wrap: wrap;
-  }
-  .skills {
-    visibility: hidden;
-  }
-}
-@media (max-width: 500px) {
   .qualifications {
     width: 500px;
     align-items: center;
@@ -225,24 +209,28 @@ body {
     visibility: hidden;
   }
   .nav-header {
-    width: 100%;
+    width: 500px;
+    margin: none;
   }
   .nav-header .nav-links {
+    display: flex;
     flex-direction: column;
-    width: 100%;
   }
   .nav-header .nav-links .links {
-    width: 600px;
     font-size: 50px;
-    display: block;
     text-decoration: none;
     color: black;
     border-radius: none;
     border-bottom: black solid 2px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    margin: none;
   }
-  .nav-header:hover {
+  .nav-header .nav-links .links :hover {
     width: 100%;
-    height: 100%;
     margin: 0%;
     background-color: black;
     color: white;
