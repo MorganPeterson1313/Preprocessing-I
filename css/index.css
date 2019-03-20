@@ -263,10 +263,22 @@ body {
   align-content: center;
   justify-content: center;
 }
+@media (max-width: 375px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+}
 .nav-header .nav-links .links {
   margin: 8%;
   justify-items: center;
   justify-content: center;
+}
+@media (max-width: 375px) {
+  .nav-header .nav-links .links {
+    width: 100%;
+    margin: 0;
+  }
 }
 .nav-header .links {
   text-decoration: none;
@@ -324,6 +336,14 @@ body {
 }
 .top-content .qualifications {
   margin: 20px;
+}
+@media (max-width: 375px) {
+  .top-content .qualifications .hiqual {
+    width: 75%;
+    margin-left: 20%;
+    font-size: 10px;
+    flex-wrap: wrap;
+  }
 }
 .top-content .list {
   list-style-type: disc;
