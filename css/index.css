@@ -164,11 +164,10 @@ body {
   }
   .list {
     width: 350px;
-    margin-left: 40%;
+    margin-left: 0;
     font-size: 40px;
   }
   .middle-content {
-    margin-left: 15%;
     width: 400px;
     font-size: 40px;
   }
@@ -180,10 +179,13 @@ body {
   .content3,
   .content4 {
     font-size: 30px;
-    width: 495px;
-    margin-right: 3%;
+    width: 400px;
+    margin-right: 10%;
   }
-  span {
+  .content1 span,
+  .content2 span,
+  .content3 span,
+  .content4 span {
     font-size: 30px;
   }
   .contact {
@@ -199,7 +201,7 @@ body {
   }
   .top-content {
     width: 500px;
-    margin-left: 10%;
+    margin-left: 0;
   }
   .container {
     width: 100%;
@@ -325,7 +327,7 @@ body {
   margin: 30px;
 }
 .middle {
-  font-size: 1.6em;
+  align-items: center;
   display: flex;
   justify-content: space-evenly;
   justify-content: center;
@@ -342,7 +344,6 @@ body {
 .middle-content span {
   color: purple;
   font: bold;
-  font-size: 19px;
 }
 .middle-content .content1 {
   display: flex;
