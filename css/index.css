@@ -209,12 +209,13 @@ body {
     visibility: hidden;
   }
   .nav-header {
-    width: 500px;
+    width: 100%;
     margin: none;
   }
   .nav-header .nav-links {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
   .nav-header .nav-links .links {
     font-size: 50px;
