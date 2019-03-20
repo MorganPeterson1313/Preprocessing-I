@@ -175,7 +175,7 @@ body {
   }
   .middle-content {
     width: 400px;
-    font-size: 40px;
+    font-size: 35px;
   }
   li {
     width: 400px;
@@ -269,7 +269,6 @@ body {
   justify-content: center;
 }
 .nav-header .links {
-  justify-content: space-around;
   text-decoration: none;
   color: black;
 }
