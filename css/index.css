@@ -227,8 +227,7 @@ body {
     justify-content: space-evenly;
     justify-content: center;
     align-content: center;
-    width: 500px;
-    margin: none;
+    margin: 0;
   }
   .nav-header .nav-links .links :hover {
     width: 100%;
@@ -262,7 +261,6 @@ body {
   margin: 5px 40px;
   text-decoration: none;
   color: black;
-  border-radius: 20%;
 }
 .nav-header .links:hover {
   background-color: black;
