@@ -342,11 +342,8 @@ body {
   color: purple;
 }
 .middle-content {
+  margin-left: 0;
   border-bottom: 2px dotted black;
-  width: 100%;
-  display: flex;
-  color: #021a18;
-  font: 1em bold serif;
 }
 .middle-content span {
   color: purple;
