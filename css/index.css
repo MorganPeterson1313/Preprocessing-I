@@ -389,6 +389,7 @@ body {
 }
 .top-content .list {
   list-style-type: disc;
+  align-items: center;
 }
 .top-content li,
 .top-content h1 {
